@@ -14,7 +14,7 @@ window.onload = () => {
     let when_result = Math.floor(Math.random()*when.length);
 
     return who[who_result] + " " + action[action_result] + " " + what[what_result] + " " + when[when_result]
-}
+};
 
 
 
