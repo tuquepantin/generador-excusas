@@ -7,13 +7,13 @@ let action = ['ate','peed','crushed','broke'];
 let what = ['my homework', 'the keys', 'the car'];
 let when = ['before the class','right on time','when I finished','during my lunch','while I was praying'];
  
-let who_result = Math.floor(Math.random()*who.length);
-let action_result = Math.floor(Math.random()*action.length);
-let what_result = Math.floor(Math.random()*what.length);
-let when_result = Math.floor(Math.random()*when.length);
+let whoResult = Math.floor(Math.random()*who.length);
+let actionResult = Math.floor(Math.random()*action.length);
+let whatResult = Math.floor(Math.random()*what.length);
+let whenResult = Math.floor(Math.random()*when.length);
     
-result = () => {
-    return who[who_result] + " " + action[action_result] + " " + what[what_result] + " " + when[when_result]
+let result = () => {
+    return who[whoResult] + " " + action[actionResult] + " " + what[whatResult] + " " + when[whenResult]
 };
 
 
